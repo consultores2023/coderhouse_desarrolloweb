@@ -1,0 +1,228 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0 1rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ccc;
+}
+
+#home {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#home a {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in;
+}
+
+#home a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/milla-logistica.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+    padding: 0 2rem;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content a.cta {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in;
+}
+
+.hero-content a.cta:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.hero-image {
+    width: 50%;
+    max-width: 300px;
+    margin-left: 2rem;
+}
+
+
+#about {
+    padding: 4rem 0;
+    background-color: #f7f7f7;
+}
+
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about .about-content {
+    width: 50%;
+    padding: 0 2rem;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    }
+    
+h2 {
+width: 100%;
+}
+    
+.service-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+}
+    
+.service-square {
+width: calc(20% - 20px);
+margin: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+    
+img {
+width: 100%;
+}
+
+.service-text {
+width: 100%;
+text-align: center;
+margin-top: 10px;
+}
+
+/* Sección Portfolio */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Item de Portfolio */
+.portfolio-item {
+    width: 30%; /* tamaño de cada elemento */
+    margin: 1%; /* margen entre cada elemento */
+}
+
+.portfolio-item img {
+    width: 100%; /* ajustar la imagen al ancho del contenedor */
+}
+
+/* Título de cada item de Portfolio */
+.portfolio-item h3 {
+    margin: 10px 0;
+}
+
+
+#contact form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    }
+    
+    #contact label {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    display: block;
+    }
+    
+    #contact input[type="text"], #contact input[type="email"], #contact textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    }
+    
+    #contact textarea {
+    height: 150px;
+    resize: none;
+    }
+    
+    #contact input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+    }
+    
+    #contact input[type="submit"]:hover {
+    background-color: #3e8e41;
+    }
